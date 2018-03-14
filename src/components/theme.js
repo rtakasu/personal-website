@@ -1,16 +1,9 @@
-import React, { Component } from 'react';
-import logo from './img/logo.svg';
-import './App.css';
-import { Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-import theme from './components/theme.js';
+import React from "react";
 
-
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <div>
+class theme extends React.Component {
+  render() {
+    return (
+      <div>
         <meta charSet="utf-8" />
         <meta
           name="viewport"
@@ -209,10 +202,8 @@ class App extends Component {
         {}
         {}
       </div>
-
-            </div>
-            );
-    }
+    );
+  }
 }
 
-export default App;
+export default theme;
